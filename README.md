@@ -30,5 +30,6 @@
 ## 使い方
 
 ```bash
+$ export BW_SESSION=$(bw unlock --raw)
 $ chezmoi inti InkoHX/dotfiles.xubuntu
 ```
