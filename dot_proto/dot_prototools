@@ -1,0 +1,10 @@
+bun = "1.0.27"
+deno = "1.40.5"
+node = "21.6.2"
+npm = "10.4.0"
+pnpm = "8.15.3"
+rust = "1.76.0"
+
+[settings]
+auto-install = true
+telemetry = false
