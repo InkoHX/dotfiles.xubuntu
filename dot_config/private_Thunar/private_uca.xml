@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+<action>
+	<icon>Terminal</icon>
+	<name>ここでターミナルを開く</name>
+	<unique-id>2-2</unique-id>
+	<command>/usr/bin/wezterm start --cwd %f</command>
+	<description>ディレクトリ内でターミナルを開く</description>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+<action>
+	<icon>filefind</icon>
+	<name>このフォルダ内を検索</name>
+	<unique-id>3-3</unique-id>
+	<command>catfish --path=%f</command>
+	<description>このフォルダ内のファイルを検索</description>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+<action>
+	<icon>document-print</icon>
+	<name>ファイルを印刷する</name>
+	<unique-id>4-4</unique-id>
+	<command>thunar-print %F</command>
+	<description>一つ又は複数のファイルをデフォルトのプリンターに送る</description>
+	<patterns>*.asc;*.brf;*.css;*.doc;*.docm;*.docx;*.dotm;*.dotx;*.fodg;*.fodp;*.fods;*.fodt;*.gif;*.htm;*.html;*.jpe;*.jpeg;*.jpg;*.odb;*.odf;*.odg;*.odm;*.odp;*.ods;*.odt;*.otg;*.oth;*.otp;*.ots;*.ott;*.pbm;*.pdf;*.pgm;*.png;*.pnm;*.pot;*.potm;*.potx;*.ppm;*.ppt;*.pptm;*.pptx;*.rtf;*.shtml;*.srt;*.text;*.tif;*.tiff;*.txt;*.xbm;*.xls;*.xlsb;*.xlsm;*.xlsx;*.xltm;*.xltx;*.xpm;*.xwd</patterns>
+	<image-files/>
+	<other-files/>
+	<text-files/>
+</action>
+</actions>
