@@ -27,9 +27,29 @@
   - Bun
   - Deno
 
+## 必要なもの
+
+### 必須
+
+- `fcitx5`
+- `fcitx5-mozc`
+- `proto`
+- `zsh`
+- `starship`
+- `git`
+- `git-delta`
+- `carapace-bin`
+- `sheldon`
+- Firefox Developer Edition
+
+### オプション
+
+- `btop`
+
 ## 使い方
 
 ```bash
+$ bw login && bw sync
 $ export BW_SESSION=$(bw unlock --raw)
 $ chezmoi inti InkoHX/dotfiles.xubuntu
 ```
