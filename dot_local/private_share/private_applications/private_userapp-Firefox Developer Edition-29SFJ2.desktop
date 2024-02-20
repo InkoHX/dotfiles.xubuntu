@@ -3,6 +3,6 @@ Encoding=UTF-8
 Version=1.0
 Type=Application
 NoDisplay=true
-Exec=/opt/firefox-developer-edition/firefox-bin %u
+Exec=/usr/lib/firefox-devedition/firefox-bin %u
 Name=Firefox Developer Edition
 Comment=Custom definition for Firefox Developer Edition
