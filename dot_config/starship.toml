@@ -22,3 +22,6 @@ symbol = "[⬢](bold green) "
 
 [pulumi]
 symbol = "🧊 "
+
+[gcloud]
+disabled = true
