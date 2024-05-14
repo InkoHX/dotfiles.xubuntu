@@ -41,11 +41,11 @@ config.keys = {
     action = wezterm.action.SplitVertical { domain = 'CurrentPaneDomain' }
   },
   -- パネルを閉じる
-  {
-    key = 'x',
-    mods = 'CTRL',
-    action = wezterm.action.CloseCurrentPane { confirm = true },
-  },
+  -- {
+  --   key = 'x',
+  --   mods = 'CTRL',
+  --   action = wezterm.action.CloseCurrentPane { confirm = true },
+  -- },
   -- タブを閉じる
   {
     key = 'x',
